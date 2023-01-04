@@ -34,8 +34,8 @@ public class PointTests {
     }
     @Test
     public void testPoint5(){
-        Point p1 = new Point(-3,18);
-        Point p2 = new Point(1,18);
+        Point p1 = new Point(-3,19);
+        Point p2 = new Point(1,19);
         Assert.assertEquals(p1.distanceInClass(p2), 4.0);
     }
 }
